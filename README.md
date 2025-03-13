@@ -1,3 +1,3 @@
-# O-3 Demo
+# claude workbench
 
-This repository is a demo to try out some of open-ai's features and models with the web
+This repository is a demo to try out some of anthropic's claude's features and models with the web
