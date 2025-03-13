@@ -1,2 +1,60 @@
 .env
 .DS_Store
+
+# Ignore vendor files (if you have a monorepo)
+vendor/
+
+# Ignore package-lock files and yarn.lock
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore build output
+dist/
+
+# Ignore compiled JavaScript and CSS files
+public/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore unit test results
+testResults/
+
+# Ignore environment variables for development
+.env
+
+# Ignore dependencies installed by scripts (e.g. npm start)
+node_modules/.nuxt/
+node_modules/.vite/
+node_modules/.jest/
+
+# Ignore build artifacts from tools like eslint, prettier, etc.
+.eslint.json
+.prettierignore
+ ESLint.config.js
+
+# Ignore generated files by tools like TypeScript or Babel
+*.ts build
+*.js build
+*.css build
+
+# Ignore node-cache and other cached files
+node_modules/.cache/
+
+# Ignore npx dependencies (if you use them)
+.npmrc
+.npx/
+
+# Ignore git stash and git temporary storage
+.git stash
+.git attributes
+
+# On Windows, ignore the directory where npm installs package dependencies
+npm-debug.log
+
+# Other ignores...
+.dts
+.DS_Store
+.psql
+```
